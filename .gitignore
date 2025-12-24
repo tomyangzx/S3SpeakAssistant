@@ -1,0 +1,8 @@
+.pio/
+.pioenvs/
+.piolibdeps/
+.vscode/
+.clangd/
+.idea/
+*.code-workspace
+.DS_Store

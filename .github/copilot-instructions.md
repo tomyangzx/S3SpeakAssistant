@@ -13,6 +13,11 @@
 - When adding new assets, keep filenames clear and predictable; avoid renaming the existing board images.
 - Document any new conventions (linting, formatting, testing, deployment) in the README and update this file once the stack is known.
 
+## Current stack (set)
+- Firmware: PlatformIO + Arduino framework targeting `esp32-s3-devkitc-1`.
+- Display: 1.54" TFT (ST7789 controller) over SPI; pin defaults are documented in README.
+- Build/flash/monitor: `pio run -t upload`, `pio device monitor -b 115200` from repo root.
+
 ## Open questions to clarify with the maintainer
 - What is the intended product? (Web app, mobile app, firmware, data pipeline, etc.)
 - Preferred language/runtime and frameworks? (e.g., Node/React, Python/FastAPI, C#/.NET, etc.)
